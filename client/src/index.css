@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dp {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 0.5em auto;
+}
