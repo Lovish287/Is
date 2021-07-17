@@ -1,0 +1,12 @@
+CREATE PACKAGE.JSON
+npm init -y
+
+INSTALL EXPRESS
+npm install express --save
+
+INSTALL MONGOOSE
+npm install mongoose --save
+
+
+INISTALL CORS
+npm install cors --save

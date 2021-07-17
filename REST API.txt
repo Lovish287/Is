@@ -1,0 +1,23 @@
+REST API
+1. get -> FETCH INFORMATION FROM SERVER/ DB
+
+2. post -> INSERT/ADD INFORMATION TO DB VIA SERVER
+
+3. put -> UPDATE INFORMATION TO DB VIA SERVER
+
+4. delete -> DELETE/REMOVE INFORMATION TO DB VIA SERVER
+
+
+
+
+
+1. server start listen() {server start}
+2. msg disp  f1(){msg disp}
+
+Asynchronous 
+listen() {server start}
+f1(){msg disp}
+
+CALLBACK
+Synchronous 
+listen(5000(port no), ()=>{})
