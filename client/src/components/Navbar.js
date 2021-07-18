@@ -87,7 +87,7 @@ function Navbar() {
   } else {
     return (
       <nav className="navbar navbar-expand-lg  navbar-dark">
-        <div className="container-fluid" id="navhome">
+        <div id="navhome">
           <Link to="/" className="navbar-brand">
             <img src={logo} height="60" width="150" alt="interest space"></img>
           </Link>
