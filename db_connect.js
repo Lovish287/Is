@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const url = "mongodb+srv://Lavish:La287786@firstproject.tl3dl.mongodb.net/test";
+const url = "mongodb+srv://Lavish:la287786@firstproject.tl3dl.mongodb.net/test";
 
 mongoose
   .connect(url, {
