@@ -35,17 +35,7 @@ function Navbar() {
           <Link to="/UserDashboard" className="navbar-brand">
             <img src={logo} height="60" width="150" alt="interest space"></img>
           </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
