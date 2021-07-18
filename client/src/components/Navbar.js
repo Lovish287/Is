@@ -87,17 +87,14 @@ function Navbar() {
   } else {
     return (
       <nav className="navbar navbar-expand-lg  navbar-dark">
-        <div id="navhome">
+        <div className="ontainer-fluid" id="navhome">
           <Link to="/" className="navbar-brand">
             <img src={logo} height="60" width="150" alt="interest space"></img>
           </Link>
-         
-
-          <div
-            className="collapse navbar-collapse navbar-nav justify-content-center"
-            id="navbarSupportedContent"
-          >
+        
+       
             <div className="btn-group" role="group">
+							
               <Link to="/UserLogin" className="nav-link">
                 <button type="button" className="btn btn-outline-info">
                   Login
@@ -118,11 +115,10 @@ function Navbar() {
 
               <Link to="/ContactUs" className="nav-link">
                 <button type="button" className="btn btn-outline-info">
-                  Contact
-                </button>
+                  Contact </button>
               </Link>
             </div>
-          </div>
+         
         </div>
       </nav>
     );
